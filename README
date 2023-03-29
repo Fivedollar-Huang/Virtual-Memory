@@ -1,0 +1,17 @@
+To run the program, use
+    ./out init_file_name VA_file_name 
+OR:
+    Place lines for init into   "init.txt"
+    Place line for VA into      "va.txt"
+    ./out
+
+Result will be in "output.txt"
+
+
+If ./out does not exist or does not work, 
+    do
+        g++ main.cpp function.cpp handleFile.cpp -o out 
+    OR
+        make
+then follow above instructions.
+
